@@ -51,11 +51,17 @@ ul { margin: 8px 0 0 18px; }
 .project-title { text-align: center; font-weight: 700; }
 .project-title { font-size: clamp(24px, 4.5vw, 40px); }
 .project-title .line { display: block; white-space: nowrap; }
+.project-title .cadp-letter { color: var(--accent); }
 .project-subtitle { text-align: center; color: var(--muted); margin-top: 4px; }
 
 .authors, .affiliations { text-align: center; color: var(--muted); margin-top: 8px; }
 .authors .author { color: var(--text); font-weight: 500; }
 .sep { color: #606775; margin: 0 8px; }
+/* Author email + notes */
+.authors .email-icon { margin-left: 6px; text-decoration: none; color: var(--accent); }
+.authors .email-icon:hover { text-decoration: underline; }
+.authors sup { color: var(--muted); }
+.author-notes { text-align: center; color: var(--muted); margin-top: 6px; font-size: 14px; }
 
 .cta-row { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 20px; }
 .btn {
