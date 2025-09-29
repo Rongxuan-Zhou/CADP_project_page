@@ -48,10 +48,11 @@ ul { margin: 8px 0 0 18px; }
               linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
   padding: 48px 0 28px;
 }
+.site-header .container { display: flex; flex-direction: column; align-items: center; }
 .project-title { text-align: center; font-weight: 700; }
 .project-title { font-size: clamp(24px, 4.5vw, 40px); }
-.project-title .line { display: block; white-space: nowrap; }
-.project-title .cadp-letter { color: var(--accent); }
+.project-title .line { display: block; white-space: nowrap; text-align: center; }
+.project-title .cadp-letter { color: var(--accent) !important; }
 .project-subtitle { text-align: center; color: var(--muted); margin-top: 4px; }
 
 .authors, .affiliations { text-align: center; color: var(--muted); margin-top: 8px; }
